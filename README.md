@@ -1,4 +1,0 @@
-Homework
-========
-
-Best Homework ever!
