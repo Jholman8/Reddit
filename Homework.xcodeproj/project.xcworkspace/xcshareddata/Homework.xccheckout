@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E7CF8BED-92FF-407F-9A5E-7C70EBDDD644</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Homework</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5E65BADD-922A-44AF-8EE3-A556C5E4F4BB</key>
+		<string>https://bitbucket.org/jholman8/homework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Homework.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5E65BADD-922A-44AF-8EE3-A556C5E4F4BB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/jholman8/homework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5E65BADD-922A-44AF-8EE3-A556C5E4F4BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5E65BADD-922A-44AF-8EE3-A556C5E4F4BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Homework</string>
+		</dict>
+	</array>
+</dict>
+</plist>
