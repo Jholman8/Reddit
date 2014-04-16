@@ -24,7 +24,7 @@ MBProgressHUD *_HUD;
 UIImageView *_imageView;
 }
 
-
+#pragma mark - UIViewController
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:YES];
     self.titleLabel.text = self.reddit.title;
@@ -50,19 +50,9 @@ UIImageView *_imageView;
 
 
 }
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    [self configureView];
- 
-}
 
 
-- (void)configureView{
-  
-    
-    
-    }
+
 
 #pragma mark - Loading Toast
 -(void)toast{

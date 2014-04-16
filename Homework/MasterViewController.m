@@ -30,7 +30,7 @@ NSString *const ApiBaseURL = @"http://www.reddit.com/.json?after=";
     
     _reddit = [NSMutableArray array];
     _imageArray = [NSMutableArray array];
-    [self toast:@"Loading Reddit"];
+    
     
     UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
     
@@ -47,8 +47,9 @@ NSString *const ApiBaseURL = @"http://www.reddit.com/.json?after=";
 }
 #pragma mark - API Call
 -(void)apiCall{
+    [self toast:@"Loading..."];
     [_api getDataFromURL:ApiURL];
-    [self.tableView reloadData];
+   
 }
 
 #pragma mark - Table View
@@ -90,6 +91,7 @@ NSString *const ApiBaseURL = @"http://www.reddit.com/.json?after=";
     }
 }
 
+#pragma mark - more content handler
 -(void)infiniteLoad{
     if([afterIDString isEqualToString:@""]){
       [self toast:@"End of the Line"];
@@ -170,7 +172,7 @@ NSString *const ApiBaseURL = @"http://www.reddit.com/.json?after=";
 }
 
 
-
+#pragma mark - segue
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"DetailSegue"]) {
