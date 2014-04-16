@@ -10,12 +10,12 @@
 
 @interface Reddit : NSObject
 -(instancetype)initWithDictionary:(NSDictionary*)dictionary;
-@property (nonatomic, strong) NSString *title;
-@property (nonatomic, strong) NSString *score;
-@property (nonatomic, strong) NSString *thumbnail;
-@property (nonatomic, strong) NSString *num_comments;
-@property (nonatomic, assign) NSString *after;
-@property (nonatomic, assign) NSString *selftext;
+@property (nonatomic, retain) NSString *title;
+@property (nonatomic, retain) NSString *score;
+@property (nonatomic, retain) NSString *thumbnail;
+@property (nonatomic, retain) NSString *num_comments;
+@property (nonatomic, retain) NSString *after;
+@property (nonatomic, retain) NSString *selftext;
 @property (nonatomic, retain) UIImage *imaged;
 @property (nonatomic, assign) BOOL is_self;
 
